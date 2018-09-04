@@ -42,7 +42,8 @@ body {
     padding-bottom: 15vh;
   }
   #skill-header {
-    padding-top: 15vh;
+    padding-top: 20vh;
+    color: #008080;
   }
   #projects {
     background-color: #fafafa;
@@ -62,6 +63,9 @@ body {
       padding: 10px;
   }
   
+  p {
+    font-size: 1.2em;
+  }
   .grid-container {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -113,8 +117,6 @@ body {
   #contact-container {
     display: grid;
     grid-template-columns: 1fr 2fr 2fr 2fr 2fr 1fr;
-  /*  justify-content: center;
-    align-items: center; */
   }
   .contact-details {
     font-weight: bold;
